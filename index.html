@@ -15,8 +15,7 @@
     <body>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg justify-content-center custom-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">The Animal Registry</a>
+            <div class="container-fluid d-flex">
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -27,6 +26,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <a class="navbar-brand" href="#">The Animal Registry</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <!-- Added mx-auto class -->
@@ -51,6 +51,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Report Lost</a></li>
                                 <li><a class="dropdown-item" href="#">Report Found</a></li>
+                                <li><a class="dropdown-item" href="#">Report Stray</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -62,6 +63,9 @@
                             aria-label="Search" />
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
+                </div>
+                <div class="p-3 ml-auto">
+                    <a href="#">Login</a>
                 </div>
             </div>
         </nav>
@@ -78,35 +82,54 @@
 
         <!-- Page -->
         <div
-            class="page p-5 container d-flex flex-column justify-content-center align-items-center align-self-start">
+            class="page p-3 container d-flex flex-column justify-content-center align-items-center align-self-start">
             <!-- Upload an animal -->
             <div
-                class="card text-center spotted-stray d-flex flex-column"
+                class="card text-center spotted-stray d-flex flex-column m-2"
                 style="max-width: 1100px">
                 <div class="card-header h4 text-white">Spotted a stray?</div>
                 <div class="card-body">
                     <h5 class="card-title">Tell us about it.</h5>
                     <p class="card-text">
-                        Please upload the animals details(the more detailed the better), an
-                        approximate location, as well as an image or a video if applicable.
+                        The Animal Registry relies on your input, please tell any time you encounter
+                        a stray.
+                        <br />
+                        Upload the animals details(the more detailed the better), an approximate
+                        location, as well as an image or a video if applicable.
                     </p>
                     <a href="#" class="btn btn-primary">Login</a>
                 </div>
                 <hr class="align-self-center" style="width: 90%" />
                 <div class="card-body">
-                    <h5 class="card-title">Tell us about it.</h5>
+                    <h5 class="card-title">Report a lost pet</h5>
                     <p class="card-text">
-                        Please upload the animals details(the more detailed the better), an
-                        approximate location, as well as an image or a video if applicable.
+                        We'll keep you updated if any strays have been located nearby that match
+                        your pets features
                     </p>
                     <a href="#" class="btn btn-primary">Login</a>
                 </div>
             </div>
 
             <!-- Featured Animals -->
-            <div class="container text-center">
+            <div class="container text-end">
                 <div class="text-center h2 p-3">Featured Strays</div>
                 <hr />
+                <div class="dropdown">
+                    <a
+                        class="btn btn-secondary dropdown-toggle background-purple-10"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
                 <div
                     class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
                     <div class="card col m-3 p-0" style="width: 18rem">

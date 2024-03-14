@@ -33,6 +33,10 @@
     color: var(--purple-7);
 }
 
+.background-purple-10 {
+    background-color: var(--purple-10);
+}
+
 .navbar-brand {
     line-height: 70px;
     padding: 10px;
