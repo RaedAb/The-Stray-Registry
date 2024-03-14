@@ -1,0 +1,60 @@
+:root {
+    /* Define a range of shades of purple */
+    --purple-1: hsl(270, 50%, 10%);
+    --purple-2: hsl(270, 50%, 15%);
+    --purple-3: hsl(270, 50%, 20%);
+    --purple-4: hsl(270, 50%, 25%);
+    --purple-5: hsl(270, 50%, 30%);
+    --purple-6: hsl(270, 50%, 35%);
+    --purple-7: hsl(270, 50%, 40%);
+    --purple-8: hsl(270, 50%, 45%);
+    --purple-9: hsl(270, 50%, 50%);
+    --purple-10: hsl(270, 50%, 55%);
+    --purple-11: hsl(270, 50%, 60%);
+    --purple-12: hsl(270, 50%, 65%);
+    --purple-13: hsl(270, 50%, 70%);
+    --purple-14: hsl(270, 50%, 75%);
+    --purple-15: hsl(270, 50%, 80%);
+    --purple-16: hsl(270, 50%, 85%);
+    --purple-17: hsl(270, 50%, 90%);
+    --purple-18: hsl(270, 50%, 95%);
+    --purple-19: hsl(270, 50%, 98%);
+    --purple-20: hsl(270, 50%, 100%);
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav,
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link.dropdown-toggle {
+    color: var(--purple-7);
+}
+
+.navbar-brand {
+    line-height: 70px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.spotted-stray .card-header {
+    background-color: var(--purple-10);
+}
+
+.footer {
+    background-color: var(--purple-11);
+}
+
+body {
+    background-color: var(--purple-19);
+}
