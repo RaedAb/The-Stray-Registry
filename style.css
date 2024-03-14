@@ -33,6 +33,16 @@
     color: var(--purple-7);
 }
 
+.custom-navbar .search-button {
+    color: var(--purple-7);
+    border-color: var(--purple-7);
+}
+
+.custom-navbar .search-button:hover {
+    color: white;
+    background-color: var(--purple-7);
+}
+
 .background-purple-10 {
     background-color: var(--purple-10);
 }
@@ -55,8 +65,8 @@
     background-color: var(--purple-10);
 }
 
-.footer {
-    background-color: var(--purple-11);
+.footer span{
+    color: var(--purple-7);
 }
 
 body {
